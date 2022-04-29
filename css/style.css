@@ -161,18 +161,16 @@ footer{
 }
 
 .violp{
-	width: 500px;
+	width: 900px;
 	height: 400px;
-	background-color: palevioletred;
-	border: 1px solid white;
+
 	
 }
 
 .acquam{
 	width: 400px;
 	height: 400px;
-	background-color: aquamarine;
-	border: 1px solid white;
+	text-align: center;
 
 }
 
@@ -226,6 +224,9 @@ footer{
 .margine-botton{
 	margin-top: 30px;
 }
+.margine-su{
+	margin-top: 15px;
+}
 /*flex classi*/
 .flex-class{
 	display: flex;
@@ -257,4 +258,31 @@ h2{
 }
 .text-centro{
 	text-align: center;
+}
+.class-colorblu{
+	color: #255ee9;
+}
+.text-piccolo{
+	font-size: 5px;
+	
+}
+/*fix immagini*/
+
+.grandezza{
+	width: 30px;
+}
+
+.font{
+	color: white;
+	width: 5px;
+}
+
+h4{
+	color: #255ee9;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+li{
+	margin-bottom: 20px;
 }
