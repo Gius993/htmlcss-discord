@@ -13,7 +13,9 @@ body{
 header{
 	background-color:rgb(0, 0, 107) ;
 }
-
+main{
+	color: black;
+}
 .menù{
 	height: 80px;
 	background-color: #255ee9;
@@ -71,20 +73,28 @@ li{
 
 /*sfondi*/
 
-.sfondo{
+.sfondo-a{
 	background-image: url('../img/jumbo.png');
 	background-size: contain;
 	background-position: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
 
-	
 }
+
+.dettagli{
+	background-size: contain;
+	background-position: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+	
 
 /*main*/
 
 .neutral{
-	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin: 30px;
@@ -93,21 +103,33 @@ li{
 .blu{
 	width: 600px;
 	height: 400px;
-	background-color: rgb(121, 147, 248);
+	
+	
+	
+}
+.sfondo-b{
+	background-image: url('../img/item1.svg');
 }
 
+.sfondo-c{
+	background-image: url('../img/item2.svg');
+	margin-bottom: 60px;
+}
+
+.sfondo-d{
+	background-image: url('../img/item3.svg');
+}
 .pink{
 	width: 400px;
-	height: 400px;
-	background-color: pink;
+	height: 400px;	
 }
 
 .sfondo{
 	height: 500px;
-	background-color: lightgray;
-	display: flex;
+	background-color: #f6f6f6;
 	justify-content: center;
 	align-items: center;
+	padding-top: 90px;
 }
 
 .greyandgreen{
@@ -218,4 +240,16 @@ h1{
 	text-align: center;
 	margin-top: 5px;
 	margin-bottom: 5px;
+}
+
+h2{
+	font-size: 50px;
+	color: black;
+	margin-bottom: 15px;
+}
+
+.text-central{
+	font-size: larger;
+	margin-top: 5px;
+	margin-bottom: 5px;	
 }
