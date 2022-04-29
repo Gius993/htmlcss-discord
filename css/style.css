@@ -39,9 +39,9 @@ ul{
 
 .link{
 	display: flex;
-	border: 1px solid black;
 	width: 60%;
-	background-color: orange;
+	background-color:#255ee9;
+	;
 	justify-content: center;
 	align-items: center;
 }
@@ -51,17 +51,13 @@ li{
 
 }
 .logo{
-	border: 1px solid black;
 	width:  20%;
-	background-color: orange;
-	
-
+	background-color: #255ee9;
 }
 .logo-a{
 	text-align: end;
-	border: 1px solid black;
 	width:  20%;
-	background-color: orange;
+	background-color: #255ee9;
 }
 
 .jambotron-text{
