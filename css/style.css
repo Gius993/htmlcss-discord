@@ -134,8 +134,7 @@ li{
 
 .greyandgreen{
 	height: 800px;
-	background-color: lightgrey;
-	display: flex;
+	background-color: #f6f6f6;
 	justify-content: center;
 	align-items: center;
 }
@@ -143,7 +142,8 @@ li{
 .green{
 	width: 1000px;
 	height: 700px;
-	background-color: green;
+	text-align: center;
+	
 }
 
 /*inizio footer*/
@@ -213,6 +213,8 @@ footer{
 	color: black;
 	border-color: rgb(255, 255, 255);
 }
+
+
 .blackwhite{
 	background-color: black;
 	color: white;
@@ -252,4 +254,7 @@ h2{
 	font-size: larger;
 	margin-top: 5px;
 	margin-bottom: 5px;	
+}
+.text-centro{
+	text-align: center;
 }
