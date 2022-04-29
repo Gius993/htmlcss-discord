@@ -170,14 +170,13 @@ footer{
 .acquam{
 	width: 400px;
 	height: 400px;
-	text-align: center;
+	text-align: left;
 
 }
 
 /*recapiti*/
 
 .recap{
-	background-color: aquamarine;
 	margin-top:20px ;
 	margin-left: 450px;
 	margin-right: 450px;
@@ -281,6 +280,7 @@ h4{
 	color: #255ee9;
 	margin-top: 10px;
 	margin-bottom: 30px;
+	text-align: center;
 }
 
 li{
